@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    transition: 0.4s;
+    --black: black;
+    --red: rgb(128, 1, 1);
+    --gold: rgb(177, 166, 14);
+    --tan: rgb(179, 135, 84);
+}
+
+body {
+    font-family: 'MedievalSharp';font-size: 22px;
+    background-color: var(--red);
+    overflow-x: hidden;
+}
+
+.name-title {
+    color: var(--gold);
+    padding: 20px 20px 20px 20px;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.nav-link {
+    color: var(--gold);
+    padding-bottom: 50px;
+}
+
+header {
+    background-blend-mode: lighten;
+    color: var(--gold);
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    padding-top: 30px;
+    background-color: var(--red);
+}
+
+nav ul {
+    list-style-type: none;
+    float: right;
+    
+}
+nav li {
+    display: inline-block;
+    justify-content: space-between;
+    color: var(--gold);
+}
+nav ul li a {
+    color: var(--gold);
+    justify-content:space-between;
+    margin-right: 25px;
+}
+
+.welcome-text {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 35px;
+    color: var(--gold);
+}
+
+.sub-text {
+    text-align: center;
+    padding: 15px;
+    color: var(--gold);
+}
+
+#home-bkgnd-photo {
+    margin: 0;
+    padding: 0;
+    background-image: url(../../background-quest.jpg);
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
